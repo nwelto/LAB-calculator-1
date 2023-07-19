@@ -1,0 +1,145 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: grey;
+}
+
+#wrapper{
+  max-width: 400px;
+  height: 700px;
+  justify-content: start;
+  align-items: stretch;
+  margin: auto;
+  
+}
+
+.calculator-buttons{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.calculator-value{
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+
+
+/*.calculator-value{
+  width: 100%;
+  height: 8%;
+  color: white;
+  font-size: x-large;
+  background-color: black;
+  padding: 25px;
+  text-align: right;
+}
+*/
+
+.calculator-value:hover{
+  background-color: grey;
+}
+
+.calculator-value:active{
+  background-color: khaki;
+}
+
+
+.clear-button{
+  width: 50%;
+  height: 15%;
+  color: black;
+  font-size:x-large;
+  background-color: #d8d9db;
+  padding: 25px;
+}
+.clear-button:hover{
+  background-color: grey;
+}
+
+.clear-button:active{
+  background-color: khaki;
+}
+
+.backspace{
+  width: 25%;
+  color: black;
+  height: 15%;
+  font-size: x-large;
+  padding:25px;
+  background-color: #d8d9db;
+}
+.backspace:hover{
+  background-color: grey;
+}
+.backspace:active{
+  background: khaki;
+}
+
+.math{
+  width: 25%;
+  height: 15%;
+  color: white;
+  font-size: x-large;
+  padding:25px;
+  background-color: orange;
+}
+
+.math:hover{
+  background-color: grey;
+}
+
+.math:active{
+  background-color: khaki;
+}
+
+.number{
+  width: 25%;
+  color: black;
+  height: 15%;
+  font-size: x-large;
+  padding:25px;
+  background: #d8d9db;
+}
+
+.number:hover{
+  background-color: grey;
+}
+.number:active{
+  background: khaki;
+}
+.number-zero{
+  width: 75%;
+  height: 15%;
+  color: black;
+  padding:25px;
+  background-color: #d8d9db;
+  font-size: x-large;
+
+}
+
+.number-zero:hover{
+  background-color: grey;
+}
+
+.number-zero:active{
+  background-color:khaki;
+}
+
+form input{
+  width: 360px;
+  height: 80px;
+  border:none;
+  font-size:large;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  text-align: right;
+  pointer-events: none;
+
+}
